@@ -38,7 +38,7 @@ navigation_header:
 - title: Home
   url: /
 - title: CV
-  url: /cv/
+  url: /cv
 - title: Projects
   url: /projects/
 
