@@ -1,0 +1,83 @@
+# Set theme
+remote_theme: daviddarnes/alembic@main
+
+# File excludes
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+
+# Set plugins
+plugins:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-feed
+- jekyll-commonmark
+- jekyll-include-cache
+- jemoji
+- jekyll-remote-theme
+
+# Site settings
+url: 'https://tianyulll.github.io/'
+# baseurl: ''
+title: 'Tianyu Lu'
+description: ''
+# permalink: pretty
+email: tianyul3@alumni.cmu.edu
+logo: "/images/logo.png"
+
+# Pagination
+paginate: 5
+paginate_path: blog/page:num
+
+# Header nav
+navigation_header:
+- title: Home
+  url: /
+- title: CV
+  url: /cv/
+- title: Projects
+  url: /projects/
+
+# Footer nav
+navigation_footer:
+- title: Email me
+  url: mailto:tianyul3@alumni.cmu.edu
+
+ # Appears in sidebar. Set the urls then uncomment and comment out as desired
+social_links:
+  LinkedIn: https://www.linkedin.com/in/tianyu-charlie-lu
+  GitHub: https://github.com/tianyulll
+  Email: mailto:tianyul3@alumni.cmu.edu
+
+sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
+  # Twitter: "#0d94e7"
+  # facebook: "#3B5998"
+  # Email: true
+
+# Collections
+collections:
+  posts:
+    title: Projects
+    output: true
+    description: "Links to my previous and current projects"
+    # feature_text: 
+    feature_image: "/images/banner_1.png"
+
+# Collection settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post # Set the default layout for posts
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page # Set the default layout for pages
