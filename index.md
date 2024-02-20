@@ -2,6 +2,7 @@
 feature_image: "/images/banner3.png"
 # feature_text: 
 aside: true
+title: ""
 ---
 
 ## About Me

@@ -30,6 +30,13 @@
   },
   
   {
+    "title": "",
+    "excerpt": "\n",
+    "content": "About Me\n\nI received my B.S. in Molecular and Cellular Biology from University of Illionis at Urbana-Champaign in 2021, where I studied phage induction in P. aeruginosa at Whitaker lab. I received my M.S. in Computational Biology from Carnegie Mellon University in 2023, where I studied evolutionary patterns in mammals by applying machine learning methods on enhancer activities at Pfenning lab. I am currently a bioinformatician of the Microbio department, at the University of Pennsylvania, where I helped different groups processing and analyzing sequencing data, with a specific focus on multiome single-cell RNA-seq.\n\nProjects\n\n\n  \n    HIV TEA-seq \nTrimodality sc-RNA seq on in-vitro cells infected with HIV.\n  \n  \n    CITE-seq\nHashtaged t-cells on RNA and ADT.\n  \n  \n    Vocal-learning TACIT \nApplying machine learning method on evolutanary trait.\n  \n\n",
+    "url": "/"
+  },
+  
+  {
     "title": "Tianyu's CV",
     "excerpt": "\n",
     "content": "Education\n\n  B.S. in Molecular and Cellular Biology, University of Illinois at Urbana Champaign, 2021\n  M.S. in Compuational Biology, Carnegie Mellon University, 2023\n\n\nExperience\n\n  Current: Bioinformatician\n    \n      \n    \n  \n  2022-2023 Research Assistant\n    \n      \n    \n  \n\n\nSkill\n\n  single-cell RNA seq\n\n",
