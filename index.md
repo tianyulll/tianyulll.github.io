@@ -1,7 +1,8 @@
 ---
-feature_image: "/images/banner_1.png"
+feature_image: "/images/banner3.png"
 # feature_text: 
 aside: true
+logo: ""
 ---
 
 Hi! My name is Tianyu Lu and welcome to my academic homepage.
