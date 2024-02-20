@@ -971,7 +971,7 @@ a:hover, a:active, a:focus {
   line-height: 2rem;
   margin-bottom: 1.39999rem;
   padding-top: 0.60001rem;
-  color: #a8adac;
+  color: #818C98;
 }
 @media screen and (min-width: 40em) {
   .typeset .caption {
@@ -1040,7 +1040,7 @@ a:hover, a:active, a:focus {
   }
 }
 .typeset hr {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #a8adac 50%);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #818C98 50%);
   background-position: 0 50%;
   background-repeat: repeat-x;
   background-size: 100% 0.15rem;
@@ -1437,16 +1437,16 @@ body {
 
 .small {
   padding-top: 0.8rem;
-  color: #a8adac;
+  color: #818C98;
   display: inline-block;
 }
 
 .footer {
   background: #242e2b;
-  color: #a8adac;
+  color: #818C98;
 }
 .footer a {
-  color: #a8adac;
+  color: #818C98;
 }
 .footer a:hover {
   color: #ffffff;
@@ -1472,7 +1472,7 @@ body {
   -webkit-justify-content: space-between;
   -moz-justify-content: space-between;
   justify-content: space-between;
-  color: #a8adac;
+  color: #818C98;
   text-align: center;
 }
 
@@ -1596,7 +1596,7 @@ body {
   margin-left: 0;
 }
 .item--current a {
-  color: #a8adac;
+  color: #818C98;
 }
 
 a .icon {
@@ -1671,7 +1671,7 @@ video {
 }
 .form__legend {
   font-style: italic;
-  color: #a8adac;
+  color: #818C98;
   position: absolute;
   overflow: hidden;
   right: 0;
@@ -1775,7 +1775,7 @@ input[type=color],
 textarea,
 select {
   width: 100%;
-  border: 1px solid #a8adac;
+  border: 1px solid #818C98;
 }
 input[type=text]:hover,
 input[type=email]:hover,

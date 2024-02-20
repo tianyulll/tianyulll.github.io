@@ -24,8 +24,10 @@ plugins:
 url: 'https://tianyulll.github.io/'
 # baseurl: ''
 title: 'Tianyu Lu'
-description: ''
+description: 'My name is Tianyu Lu, bioinformation at Penn Medicine. 
+Welcome to my academic portfolio and feel free to reach out below.'
 # permalink: pretty
+repo: "https://github.com/tianyulll/tianyulll.github.io"
 email: tianyul3@alumni.cmu.edu
 logo: "/images/logo.png"
 
@@ -38,7 +40,7 @@ navigation_header:
 - title: Home
   url: /
 - title: CV
-  url: /cv
+  url: /tianyulu
 - title: Projects
   url: /projects/
 
@@ -56,7 +58,7 @@ social_links:
 sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
   # Twitter: "#0d94e7"
   # facebook: "#3B5998"
-  # Email: true
+  Email: "#A9B7AA"
 
 # Collections
 collections:
