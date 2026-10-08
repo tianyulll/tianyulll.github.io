@@ -1,18 +1,9 @@
 ---
-title: Tianyu's CV
-
+layout: default
+title: Curriculum Vitae
+permalink: /tianyulu.html
 ---
-
-## Education
-* B.S. in Molecular and Cellular Biology, University of Illinois at Urbana Champaign, 2021
-* M.S. in Compuational Biology, Carnegie Mellon University, 2023
-
-## Experience
-* Current: Bioinformatician
-	* 
-
-* 2022-2023 Research Assistant
-	* 
-
-## Skill
-- single-cell RNA seq
+<article class="container inner-page cv-page"><header class="page-heading"><p class="eyebrow">Curriculum vitae</p><h1>Tianyu Lu</h1><p class="page-intro">Bioinformatics · Single-cell genomics · Computational biology</p><a class="text-link" href="mailto:{{ site.email }}">{{ site.email }} <span aria-hidden="true">↗</span></a></header>
+<section class="cv-section"><h2>Research experience</h2><div><div class="cv-entry"><p class="small-label">University of Pennsylvania</p><h3>Bioinformatician</h3><p class="muted">Department of Microbiology</p><p>Support research groups in processing and analyzing sequencing data, with a focus on single-cell RNA sequencing and multiomic approaches.</p></div><div class="cv-entry"><p class="small-label">Carnegie Mellon University / Pfenning lab</p><h3>Computational biology research</h3><p>Studied evolutionary patterns in mammals by applying machine learning methods to enhancer activity.</p></div><div class="cv-entry"><p class="small-label">University of Illinois Urbana-Champaign / Whitaker lab</p><h3>Molecular and cellular biology research</h3><p>Studied phage induction in <em>Pseudomonas aeruginosa</em>.</p></div></div></section>
+<section class="cv-section"><h2>Education</h2><div><div class="cv-entry"><p class="small-label">2023 / Carnegie Mellon University</p><h3>M.S. in Computational Biology</h3></div><div class="cv-entry"><p class="small-label">2021 / University of Illinois Urbana-Champaign</p><h3>B.S. in Molecular and Cellular Biology</h3></div></div></section>
+<section class="cv-section"><h2>Research focus</h2><div><div class="tags"><span>Single-cell RNA sequencing</span><span>Multiomic analysis</span><span>Sequencing data analysis</span><span>Machine learning</span><span>Enhancer activity</span></div></div></section></article>

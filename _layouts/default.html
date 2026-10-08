@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f2">
+  {% seo %}
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+  {% feed_meta %}
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header container">
+    <a class="identity" href="{{ '/' | relative_url }}" aria-label="Tianyu Lu, home"><span class="monogram" aria-hidden="true">tl.</span><span>Tianyu Lu</span></a>
+    <nav aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>About</a>
+      <a href="{{ '/projects/' | relative_url }}"{% if page.url contains '/projects/' or page.layout == 'post' %} aria-current="page"{% endif %}>Research</a>
+      <a href="{{ '/tianyulu.html' | relative_url }}"{% if page.url contains 'tianyulu' %} aria-current="page"{% endif %}>CV</a>
+      <a class="nav-contact" href="mailto:{{ site.email }}">Get in touch <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main">{{ content }}</main>
+  <footer class="site-footer container">
+    <div><a class="footer-name" href="{{ '/' | relative_url }}">Tianyu Lu</a><p>Biology, understood through data.</p></div>
+    <div class="footer-links"><a href="mailto:{{ site.email }}">Email <span aria-hidden="true">↗</span></a><a href="https://github.com/tianyulll">GitHub <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/tianyu-charlie-lu">LinkedIn <span aria-hidden="true">↗</span></a></div>
+    <p class="copyright">© {{ site.time | date: '%Y' }} Tianyu Lu</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,7 @@
+---
+layout: default
+---
+<article class="container inner-page">
+  <header class="page-heading"><p class="eyebrow">{{ page.eyebrow | default: 'Tianyu Lu' }}</p><h1>{{ page.title }}</h1>{% if page.intro %}<p class="page-intro">{{ page.intro }}</p>{% endif %}</header>
+  <div class="prose">{{ content }}</div>
+</article>

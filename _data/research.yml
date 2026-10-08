@@ -1,0 +1,18 @@
+- title: HIV TEA-seq
+  number: "01"
+  category: Single-cell multiomics
+  description: Trimodal single-cell profiling of in vitro cells infected with HIV.
+  url: /projects/#hiv-tea-seq
+  class: cells
+- title: CITE-seq
+  number: "02"
+  category: Transcriptomics & proteins
+  description: Studying hashed T cells through RNA and antibody-derived tags.
+  url: /projects/#cite-seq
+  class: tracks
+- title: Vocal-learning TACIT
+  number: "03"
+  category: Machine learning & evolution
+  description: Exploring evolutionary traits in mammals through enhancer activity.
+  url: /2024/02/01/VL-TACIT.html
+  class: waves
