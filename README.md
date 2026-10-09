@@ -1,8 +1,8 @@
-# Tianyu Lu — academic portfolio
+# Tianyu Lu — computational portfolio
 
-A responsive, minimal Jekyll site for GitHub Pages.
+Bilingual Jekyll portfolio for GitHub Pages.
 
-## Local preview
+## Preview
 
 ```sh
 bundle install
@@ -11,13 +11,13 @@ bundle exec jekyll serve
 
 Open http://localhost:4000. Build with `bundle exec jekyll build`.
 
-## Content
+## Editing
 
-- `index.md`: home page and biography
-- `_data/research.yml`: project cards
-- `projects/index.html`: project summaries
-- `tianyulu.md`: CV
-- `_posts/`: individual research pages
-- `assets/styles.css`: responsive styling
+- `_data/portfolio.json`: English and Chinese biography, experience, education, and skills.
+- `_data/projects.json`: shared project records with English and Chinese descriptions. Keep workflow designs distinct from implemented work.
+- `_includes/profile.html`, `projects.html`, `cv.html`: shared page templates.
+- `index.md`, `projects/index.html`, `tianyulu.md`: English page metadata.
+- `zh/`: Chinese page metadata and translated article.
+- `assets/styles.css`: layout and responsive styles.
 
-The artwork is decorative and does not represent experimental data. The site uses system fonts and works without JavaScript. GitHub Pages builds from the source on `main`; generated `_site/` files should not be committed.
+Each paired page declares `en_url` and `zh_url` for navigation and language metadata. Illustrations are decorative, not experimental data. Generated `_site/` files should not be committed.

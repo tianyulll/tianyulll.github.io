@@ -1,0 +1,215 @@
+[
+  {
+    "slug": "single-cell",
+    "art": "cells",
+    "tags": [
+      "Seurat",
+      "Signac",
+      "Scanpy",
+      "Cell Ranger"
+    ],
+    "group": "research",
+    "en": {
+      "title": "Single-cell & multiomic analysis",
+      "category": "High-dimensional data",
+      "description": "Building analysis workflows across expression, accessibility, surface-protein, and clonotype measurements.",
+      "body": "Process count matrices and sample metadata through QC, normalization, batch correction, clustering, annotation, differential expression, and pathway and cell-composition analysis. Applications include scRNA-seq, scATAC-seq, ADT/CITE-seq, and HIV TEA-seq.",
+      "output": "Deliver annotated analysis objects, comparison tables, and figures that connect processing decisions with downstream interpretation.",
+      "status": "Research analysis"
+    },
+    "zh": {
+      "title": "单细胞与多组学分析",
+      "category": "高维数据",
+      "description": "构建覆盖表达、染色质可及性、表面蛋白及克隆型测量的数据分析流程。",
+      "body": "整合计数矩阵与样本信息，完成质控、归一化、批次校正、聚类、注释、差异表达、通路与细胞组成分析。应用包括 scRNA-seq、scATAC-seq、ADT/CITE-seq 和 HIV TEA-seq。",
+      "output": "交付带注释的分析对象、比较结果表及图形，使数据处理决策与下游解释相衔接。",
+      "status": "研究分析"
+    }
+  },
+  {
+    "slug": "spatial",
+    "art": "cells",
+    "tags": [
+      "Visium HD",
+      "ROI analysis",
+      "Spatial visualization"
+    ],
+    "group": "research",
+    "en": {
+      "title": "Visium HD spatial transcriptomics",
+      "category": "Spatial computation",
+      "description": "Organizing spatial expression measurements into regions, annotations, and comparable summaries.",
+      "body": "Analyze Visium HD data using region-of-interest definitions, spatial expression visualization, cell-type and region annotation, and paired-sample comparisons. Integrate interpretation with single-cell and transcriptomic results.",
+      "output": "Region-level summaries and spatial visualizations provide a structured basis for comparing samples.",
+      "status": "Research analysis"
+    },
+    "zh": {
+      "title": "Visium HD 空间转录组",
+      "category": "空间计算",
+      "description": "将空间表达测量组织为区域、注释及可比较的结果汇总。",
+      "body": "使用感兴趣区域定义、空间表达可视化、细胞类型与区域注释以及配对样本比较分析 Visium HD 数据，并结合单细胞与转录组结果进行解释。",
+      "output": "输出区域级汇总与空间可视化，为样本间比较提供结构化依据。",
+      "status": "研究分析"
+    }
+  },
+  {
+    "slug": "viral-integration",
+    "art": "waves",
+    "tags": [
+      "Python",
+      "R",
+      "minimap2",
+      "CIGAR parsing"
+    ],
+    "group": "research",
+    "en": {
+      "title": "HIV & AAV integration analysis",
+      "category": "Sequence algorithms",
+      "description": "Turning alignments, clipping patterns, and genomic coordinates into interpretable site-level summaries.",
+      "body": "Build HIV/AAV analysis workflows for Illumina and Nanopore data. Work includes primary-alignment filtering, strand-aware soft-clip inspection, junction-motif checks, motif-to-alignment distance measurement, genomic annotation, and aggregation of overlapping intervals within samples.",
+      "output": "Read-level evidence and coordinate summaries support integration-site review and reporting. Filtering and interval conventions remain explicit parts of the analysis.",
+      "status": "Pipeline development"
+    },
+    "zh": {
+      "title": "HIV 与 AAV 整合分析",
+      "category": "序列算法",
+      "description": "将比对结果、软剪切模式和基因组坐标转化为可解释的位点级汇总。",
+      "body": "开发面向 Illumina 和 Nanopore 数据的 HIV/AAV 分析流程，包括主比对过滤、链方向感知的软剪切检查、连接处基序检查、基序与比对边界距离计算、基因组注释及样本内重叠区间聚合。",
+      "output": "输出序列级证据与坐标汇总，用于整合位点审查和报告；明确记录过滤条件与区间定义。",
+      "status": "流程开发"
+    }
+  },
+  {
+    "slug": "enhancers",
+    "art": "waves",
+    "tags": [
+      "CNNs",
+      "224 species",
+      "Permutation tests"
+    ],
+    "group": "research",
+    "en": {
+      "title": "Vocal-learning TACIT",
+      "category": "Machine learning",
+      "description": "Learning enhancer activity from sequence and testing trait associations across mammals.",
+      "body": "In the Pfenning Lab, trained convolutional neural networks on putamen-neuron enhancer sequences and predicted activity across 224 mammalian species. Used phylogenetic permutation tests and multiple-testing correction to examine associations with sleep duration, maximum lifespan, and vocal learning.",
+      "output": "The workflow connects sequence preprocessing, model training and inference, and comparative statistical testing.",
+      "status": "Research analysis"
+    },
+    "zh": {
+      "title": "发声学习 TACIT",
+      "category": "机器学习",
+      "description": "从序列学习增强子活性，并检验哺乳动物中的性状关联。",
+      "body": "在 Pfenning 实验室，使用壳核神经元增强子序列训练卷积神经网络，预测 224 种哺乳动物中的活性，并通过系统发育置换检验与多重检验校正研究睡眠时长、最长寿命及发声学习关联。",
+      "output": "流程连接序列预处理、模型训练与推断以及跨物种统计检验。",
+      "status": "研究分析"
+    }
+  },
+  {
+    "slug": "bulk-rna",
+    "art": "tracks",
+    "tags": [
+      "Kallisto / STAR",
+      "DESeq2 / limma",
+      "FGSEA / GSVA"
+    ],
+    "group": "research",
+    "en": {
+      "title": "Bulk RNA-seq & pathway analysis",
+      "category": "Statistical analysis",
+      "description": "Matching expression analyses to experimental design, from quantification to pathway-level summaries.",
+      "body": "Quantify expression and construct comparisons for paired and multi-group designs. Use DESeq2 and limma for differential analysis, and FGSEA, over-representation analysis, and GSVA for complementary views of pathway-level patterns.",
+      "output": "Deliver gene-level results, pathway summaries, and visualizations with the comparison design and statistical assumptions made explicit.",
+      "status": "Research analysis"
+    },
+    "zh": {
+      "title": "Bulk RNA-seq 与通路分析",
+      "category": "统计分析",
+      "description": "根据实验设计组织表达分析，从定量到通路级结果汇总。",
+      "body": "定量基因表达，并为配对及多组实验构建比较。使用 DESeq2 和 limma 开展差异分析，以 FGSEA、过度富集分析及 GSVA 从不同角度总结通路模式。",
+      "output": "交付基因级结果、通路汇总与可视化，并明确比较设计和统计假设。",
+      "status": "研究分析"
+    }
+  },
+  {
+    "slug": "barcode-extraction",
+    "art": "tracks",
+    "tags": [
+      "Python",
+      "edlib",
+      "FASTQ",
+      "Orientation handling"
+    ],
+    "group": "research",
+    "en": {
+      "title": "Sequencing barcode extraction",
+      "category": "Sequence processing",
+      "description": "Recovering normalized barcodes from reads with variable orientation and imperfect anchor matches.",
+      "body": "Develop primer- and adapter-anchored extraction scripts, including edit-distance alignment, configurable anchor-error tolerance, and forward, reverse-complement, and reverse-primer handling. Compare single-anchor and two-anchor strategies to make barcode boundaries explicit.",
+      "output": "Outputs include normalized barcode sequences and count tables. The work emphasizes orientation handling, boundary checks, and transparent read-selection rules.",
+      "status": "Tool development"
+    },
+    "zh": {
+      "title": "测序条形码提取",
+      "category": "序列处理",
+      "description": "从方向不一致、锚点匹配存在误差的读段中提取并统一条形码。",
+      "body": "开发以引物或接头为锚点的提取脚本，使用编辑距离比对、可配置的锚点容错，以及正向、反向互补和反向引物处理。比较单锚点与双锚点策略，明确条形码边界。",
+      "output": "输出统一方向的条形码和计数表，重点处理方向、边界检查与可追踪的序列筛选规则。",
+      "status": "工具开发"
+    }
+  },
+  {
+    "slug": "workflows",
+    "art": "tracks",
+    "tags": [
+      "Linux / Slurm",
+      "AWS",
+      "Git / Docker",
+      "R / Python / Bash"
+    ],
+    "group": "research",
+    "en": {
+      "title": "Reproducible analysis workflows",
+      "category": "Scientific infrastructure",
+      "description": "Making data processing repeatable across samples, projects, and computing environments.",
+      "body": "Deploy analyses on Linux, Slurm, and AWS, with Git, Docker, and automation scripts for batch processing and reproducibility. Organize preprocessing, analysis, visualization, and reporting into workflows that collaborators can inspect and rerun.",
+      "output": "Practical emphasis on consistent inputs, metadata, reusable scripts, and communication of analysis assumptions.",
+      "status": "Workflow engineering"
+    },
+    "zh": {
+      "title": "可复现分析流程",
+      "category": "科学计算基础设施",
+      "description": "支持跨样本、跨项目和跨计算环境的可重复数据处理。",
+      "body": "在 Linux、Slurm 与 AWS 环境中部署分析，结合 Git、Docker 和自动化脚本进行批量处理与复现。将预处理、分析、可视化和报告组织为便于合作者检查与重新运行的流程。",
+      "output": "注重输入与元数据的一致性、脚本复用，以及分析假设的清晰沟通。",
+      "status": "流程工程"
+    }
+  },
+  {
+    "slug": "ebook2kindle",
+    "art": "tracks",
+    "tags": [
+      "Python",
+      "PySide6",
+      "EPUB",
+      "macOS"
+    ],
+    "group": "software",
+    "en": {
+      "title": "ebook2kindle",
+      "category": "Desktop software",
+      "description": "A desktop application for converting text to EPUB and managing email-based ebook delivery.",
+      "body": "Work on the conversion pipeline, settings interface, SMTP delivery behavior, regression tests, and macOS packaging. Recent improvements include preserving existing output files, retaining text before the first chapter, and preventing cleanup failures from triggering duplicate submissions.",
+      "output": "A practical software project combining file processing, user-interface design, error handling, and distribution.",
+      "status": "Software project"
+    },
+    "zh": {
+      "title": "ebook2kindle",
+      "category": "桌面软件",
+      "description": "用于文本转 EPUB 及通过邮件投递电子书的桌面应用。",
+      "body": "开发转换流程、设置界面、SMTP 投递逻辑、回归测试及 macOS 打包。近期改进包括保留已有输出文件、保留首章前的正文，以及避免清理阶段错误导致重复提交。",
+      "output": "结合文件处理、界面设计、错误处理和应用分发的软件项目。",
+      "status": "软件项目"
+    }
+  }
+]

@@ -1,0 +1,238 @@
+{
+  "en": {
+    "name": "Tianyu Lu",
+    "brand": "Tianyu Lu",
+    "home": "/",
+    "research_url": "/projects/",
+    "cv_url": "/tianyulu.html",
+    "tagline": "Bioinformatics & scientific computing",
+    "nav_about": "About",
+    "nav_research": "Research",
+    "nav_cv": "CV",
+    "contact": "Contact me",
+    "skip": "Skip to content",
+    "nav_label": "Main navigation",
+    "email": "Email",
+    "view_cv": "View CV",
+    "all_projects": "All projects →",
+    "full_cv": "Full CV →",
+    "headline": "Bioinformatician · Scientific Computing",
+    "affiliation": "Department of Microbiology / Sequencing Core, University of Pennsylvania · Philadelphia",
+    "summary": "Data pipelines, statistical modeling, and software for sequencing analysis.",
+    "about": "About",
+    "about_paragraphs": [
+      "I build computational workflows that turn raw sequencing data into structured, interpretable results. My work combines data engineering, statistical analysis, and visualization: parsing reads and barcodes, integrating sample metadata, evaluating quality, and producing reproducible outputs.",
+      "At the University of Pennsylvania, I develop analyses in R, Python, and Bash across Linux, Slurm, and AWS. I work on single-cell and spatial data, sequence alignment, integration-site detection, and transcriptomic modeling. My earlier research used convolutional neural networks and phylogenetic statistics to study regulatory sequences across mammals.",
+      "I enjoy the software side of research—making assumptions explicit, checking edge cases, and designing tools that other people can run and understand. Outside research, I also work on desktop software, including an ebook conversion and delivery app."
+    ],
+    "experience": "Experience",
+    "focus": "Computational focus",
+    "focus_tags": [
+      "Pipeline development",
+      "Statistical modeling",
+      "Sequence algorithms",
+      "Data integration",
+      "Scientific software"
+    ],
+    "education": "Education",
+    "connect": "Connect",
+    "selected": "Selected research",
+    "research_title": "Research & software projects",
+    "research_intro": "Methods, pipelines, and software for working with complex data.",
+    "groups": [
+      {
+        "id": "research",
+        "title": "Research & analytical tools",
+        "intro": "Analysis workflows, sequence-processing tools, and statistical models."
+      },
+      {
+        "id": "software",
+        "title": "Software projects",
+        "intro": "Applications beyond the research pipeline."
+      }
+    ],
+    "methods_label": "Computational approach",
+    "output_label": "Outputs & scope",
+    "skills_title": "Technical skills",
+    "publications_title": "Selected publications",
+    "cv_title": "Curriculum vitae",
+    "experience_entries": [
+      {
+        "title": "Bioinformatician",
+        "org": "University of Pennsylvania · Department of Microbiology / Sequencing Core",
+        "dates": "August 2023 – Present · Philadelphia",
+        "summary": "Develop computational pipelines for sequencing datasets: data ingestion and quality control, sample assignment, alignment and annotation, statistical comparisons, and automated reporting.",
+        "bullets": [
+          "Develop R, Python, and Bash workflows spanning raw-read processing, count matrices, metadata joins, quality control, and visualization for research teams at Penn Medicine, CHOP, and the Penn Center for AIDS Research.",
+          "Build single-cell and multiomic analyses with normalization, batch correction, clustering, annotation, differential expression, and pathway and cell-composition analysis.",
+          "Process short- and long-read sequence data using alignment filters, barcode extraction, junction checks, genomic annotation, and read aggregation into integration-site summaries.",
+          "Analyze spatial expression data using region-of-interest definitions, cell-type and region annotation, visualization, and paired-sample comparisons.",
+          "Adapt transcriptomic statistical models to paired and multi-group designs; summarize gene-level changes and pathway-level patterns.",
+          "Deploy workflows on Linux, Slurm, and AWS, using Git, Docker, and automation scripts for repeatability and batch processing. Communicate assumptions and results to experimental collaborators."
+        ]
+      },
+      {
+        "title": "Research Assistant",
+        "org": "Carnegie Mellon University · Pfenning Lab",
+        "dates": "May 2022 – May 2023 · Pittsburgh",
+        "summary": "Trained convolutional neural networks on regulatory sequences and predicted enhancer activity across 224 mammalian species, combining machine learning with phylogenetic hypothesis testing.",
+        "bullets": [
+          "Combined comparative genomics and deep learning to model cell-type-specific enhancer activity from sequence.",
+          "Trained convolutional neural networks using putamen-neuron enhancer sequences to investigate conserved and convergent sequence patterns.",
+          "Predicted activity across 224 mammalian species and evaluated associations with sleep duration, maximum lifespan, and vocal learning using phylogenetic permutation tests and multiple-testing correction.",
+          "Automated data preprocessing, model training and prediction, statistical testing, and result summaries."
+        ]
+      }
+    ],
+    "education_entries": [
+      {
+        "school": "Carnegie Mellon University",
+        "degree": "M.S. in Computational Biology",
+        "dates": "2021–2023",
+        "note": ""
+      },
+      {
+        "school": "University of Illinois Urbana-Champaign",
+        "degree": "B.S. in Molecular and Cellular Biology",
+        "dates": "2017–2021",
+        "note": "James Scholar · Preble Research Scholarship · Dean’s List (Fall 2017, Spring 2018, Spring 2020, Spring 2021)"
+      }
+    ],
+    "skills": [
+      {
+        "title": "Programming & infrastructure",
+        "text": "R, Python, Bash, Go, Java, SQL · Git, Linux/Unix, Slurm, Docker, AWS EC2/S3"
+      },
+      {
+        "title": "Machine learning & statistics",
+        "text": "PyTorch, scikit-learn · CNNs, phylogenetic permutation tests, multiple-testing correction, regression, paired and multi-group comparisons"
+      },
+      {
+        "title": "Sequencing & data analysis",
+        "text": "Cell Ranger, Seurat, Signac, Scanpy · Kallisto, STAR, minimap2, BWA, SAMtools, BEDTools, BCFtools, Cutadapt, LiftOver, BLAST"
+      },
+      {
+        "title": "Interpretation & reporting",
+        "text": "DESeq2, limma, fgsea, GSVA, msigdbr · ggplot2, automated reports, publication-quality figures, Adobe Illustrator"
+      }
+    ]
+  },
+  "zh": {
+    "name": "鲁天宇",
+    "brand": "鲁天宇",
+    "home": "/zh/",
+    "research_url": "/zh/projects/",
+    "cv_url": "/zh/cv/",
+    "tagline": "生物信息学与科学计算",
+    "nav_about": "关于我",
+    "nav_research": "研究项目",
+    "nav_cv": "简历",
+    "contact": "联系我",
+    "skip": "跳转到正文",
+    "nav_label": "主导航",
+    "email": "邮箱",
+    "view_cv": "查看简历",
+    "all_projects": "全部项目 →",
+    "full_cv": "完整简历 →",
+    "headline": "生物信息学分析师 · 科学计算",
+    "affiliation": "宾夕法尼亚大学 微生物学系 / 测序核心平台 · 费城",
+    "summary": "面向测序数据分析的数据流程、统计建模与软件开发。",
+    "about": "关于我",
+    "about_paragraphs": [
+      "我主要构建计算分析流程，将原始测序数据转化为结构清晰、可解释的结果。工作结合数据处理、统计分析和可视化，涵盖序列与条形码解析、样本信息整合、质量评估，以及可复现结果的生成。",
+      "目前在宾夕法尼亚大学，我使用 R、Python 和 Bash，在 Linux、Slurm 与 AWS 环境中开展单细胞与空间数据分析、序列比对、整合位点检测及转录组建模。此前的研究结合卷积神经网络和系统发育统计方法，分析哺乳动物调控序列。",
+      "我尤其关注研究中的软件工程问题：明确分析假设、检查边界情况，并让工具便于他人运行和理解。科研之外，我也开发桌面软件，包括电子书转换与投递应用。"
+    ],
+    "experience": "工作与科研经历",
+    "focus": "计算方向",
+    "focus_tags": [
+      "分析流程开发",
+      "统计建模",
+      "序列算法",
+      "数据整合",
+      "科学软件"
+    ],
+    "education": "教育背景",
+    "connect": "联系方式",
+    "selected": "精选研究项目",
+    "research_title": "研究与软件项目",
+    "research_intro": "围绕复杂数据的方法设计、分析流程和软件开发。",
+    "groups": [
+      {
+        "id": "research",
+        "title": "研究与分析工具",
+        "intro": "数据分析流程、序列处理工具与统计模型。"
+      },
+      {
+        "id": "software",
+        "title": "软件项目",
+        "intro": "科研分析之外的应用开发。"
+      }
+    ],
+    "methods_label": "计算方法",
+    "output_label": "输出与范围",
+    "skills_title": "技术技能",
+    "publications_title": "论文发表",
+    "cv_title": "个人简历",
+    "experience_entries": [
+      {
+        "title": "生物信息学分析师",
+        "org": "宾夕法尼亚大学 · 微生物学系 / 测序核心平台",
+        "dates": "2023 年 8 月至今 · 费城",
+        "summary": "开发测序数据计算分析流程，涵盖数据导入与质控、样本归属判定、比对与注释、统计比较及自动化报告。",
+        "bullets": [
+          "使用 R、Python 和 Bash 开发流程，整合原始序列处理、表达矩阵、样本信息、质量控制与可视化，为 Penn Medicine、CHOP 和 Penn Center for AIDS Research 等团队提供分析支持。",
+          "开展单细胞与多组学分析，包括归一化、批次校正、聚类注释、差异表达、通路及细胞组成分析。",
+          "处理短读长与长读长数据，结合比对过滤、条形码提取、连接位点检查、基因组注释及序列聚合，生成整合位点汇总。",
+          "分析空间表达数据，开展感兴趣区域划分、细胞类型与区域注释、可视化及配对样本比较。",
+          "针对配对和多组实验设计调整转录组统计模型，汇总基因与通路层面的变化。",
+          "在 Linux、Slurm 和 AWS 环境中部署流程，结合 Git、Docker 与自动化脚本支持可重复运行和批量处理，并向实验合作者说明分析假设与结果。"
+        ]
+      },
+      {
+        "title": "科研助理",
+        "org": "卡内基梅隆大学 · Pfenning 实验室",
+        "dates": "2022 年 5 月—2023 年 5 月 · 匹兹堡",
+        "summary": "使用调控序列训练卷积神经网络，预测 224 种哺乳动物的增强子活性，并结合系统发育假设检验分析性状关联。",
+        "bullets": [
+          "结合比较基因组学和深度学习，从序列建模细胞类型特异性增强子活性。",
+          "使用壳核神经元增强子序列训练卷积神经网络，研究保守与趋同进化的序列模式。",
+          "预测 224 种哺乳动物中的增强子活性，通过系统发育置换检验和多重检验校正，评估与睡眠时长、最长寿命及发声学习的关联。",
+          "自动化完成数据预处理、模型训练与预测、统计检验和结果汇总。"
+        ]
+      }
+    ],
+    "education_entries": [
+      {
+        "school": "卡内基梅隆大学",
+        "degree": "计算生物学 理学硕士",
+        "dates": "2021–2023",
+        "note": ""
+      },
+      {
+        "school": "伊利诺伊大学厄巴纳-香槟分校",
+        "degree": "分子与细胞生物学 理学学士",
+        "dates": "2017–2021",
+        "note": "James Scholar · Preble Research Scholarship · Dean’s List（2017 秋、2018 春、2020 春、2021 春）"
+      }
+    ],
+    "skills": [
+      {
+        "title": "编程与基础设施",
+        "text": "R、Python、Bash、Go、Java、SQL · Git、Linux/Unix、Slurm、Docker、AWS EC2/S3"
+      },
+      {
+        "title": "机器学习与统计",
+        "text": "PyTorch、scikit-learn · 卷积神经网络、系统发育置换检验、多重检验校正、回归、配对及多组比较"
+      },
+      {
+        "title": "测序与数据分析",
+        "text": "Cell Ranger、Seurat、Signac、Scanpy · Kallisto、STAR、minimap2、BWA、SAMtools、BEDTools、BCFtools、Cutadapt、LiftOver、BLAST"
+      },
+      {
+        "title": "结果解释与报告",
+        "text": "DESeq2、limma、fgsea、GSVA、msigdbr · ggplot2、自动化报告、发表级图表、Adobe Illustrator"
+      }
+    ]
+  }
+}
