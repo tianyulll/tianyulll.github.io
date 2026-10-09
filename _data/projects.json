@@ -184,32 +184,5 @@
       "output": "注重输入与元数据的一致性、脚本复用，以及分析假设的清晰沟通。",
       "status": "流程工程"
     }
-  },
-  {
-    "slug": "ebook2kindle",
-    "art": "tracks",
-    "tags": [
-      "Python",
-      "PySide6",
-      "EPUB",
-      "macOS"
-    ],
-    "group": "software",
-    "en": {
-      "title": "ebook2kindle",
-      "category": "Desktop software",
-      "description": "A desktop application for converting text to EPUB and managing email-based ebook delivery.",
-      "body": "Work on the conversion pipeline, settings interface, SMTP delivery behavior, regression tests, and macOS packaging. Recent improvements include preserving existing output files, retaining text before the first chapter, and preventing cleanup failures from triggering duplicate submissions.",
-      "output": "A practical software project combining file processing, user-interface design, error handling, and distribution.",
-      "status": "Software project"
-    },
-    "zh": {
-      "title": "ebook2kindle",
-      "category": "桌面软件",
-      "description": "用于文本转 EPUB 及通过邮件投递电子书的桌面应用。",
-      "body": "开发转换流程、设置界面、SMTP 投递逻辑、回归测试及 macOS 打包。近期改进包括保留已有输出文件、保留首章前的正文，以及避免清理阶段错误导致重复提交。",
-      "output": "结合文件处理、界面设计、错误处理和应用分发的软件项目。",
-      "status": "软件项目"
-    }
   }
 ]

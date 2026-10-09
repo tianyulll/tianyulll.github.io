@@ -16,39 +16,34 @@
     "view_cv": "View CV",
     "all_projects": "All projects →",
     "full_cv": "Full CV →",
-    "headline": "Bioinformatician · Scientific Computing",
+    "headline": "Bioinformatician · Collaborative Sequencing Analysis",
     "affiliation": "Department of Microbiology / Sequencing Core, University of Pennsylvania · Philadelphia",
-    "summary": "Data pipelines, statistical modeling, and software for sequencing analysis.",
+    "summary": "Bioinformatics analysis for collaborative studies in HIV, viral integration, single-cell multiomics, and spatial transcriptomics.",
     "about": "About",
     "about_paragraphs": [
-      "I build computational workflows that turn raw sequencing data into structured, interpretable results. My work combines data engineering, statistical analysis, and visualization: parsing reads and barcodes, integrating sample metadata, evaluating quality, and producing reproducible outputs.",
-      "At the University of Pennsylvania, I develop analyses in R, Python, and Bash across Linux, Slurm, and AWS. I work on single-cell and spatial data, sequence alignment, integration-site detection, and transcriptomic modeling. My earlier research used convolutional neural networks and phylogenetic statistics to study regulatory sequences across mammals.",
-      "I enjoy the software side of research—making assumptions explicit, checking edge cases, and designing tools that other people can run and understand. Outside research, I also work on desktop software, including an ebook conversion and delivery app."
+      "I am a bioinformatician supporting sequencing studies across research labs and collaborative teams. I work with investigators to translate biological questions and experimental designs into rigorous analysis plans, reproducible workflows, and results that can be interpreted and communicated.",
+      "At the University of Pennsylvania, my primary focus is data analysis for HIV research, viral integration-site analysis, and single-cell sequencing, including multimodal assays and spatial transcriptomics. I take projects from raw sequencing data through quality control, alignment or quantification, data integration, statistical analysis, visualization, and collaborator-facing reporting.",
+      "My background also includes machine learning in computational biology. In the Pfenning Lab at Carnegie Mellon University, I combined deep learning, comparative genomics, and phylogenetic statistics to study the evolution of mammalian traits using regulatory-sequence models."
     ],
     "experience": "Experience",
     "focus": "Computational focus",
     "focus_tags": [
-      "Pipeline development",
-      "Statistical modeling",
-      "Sequence algorithms",
-      "Data integration",
-      "Scientific software"
+      "Collaborative sequencing analysis",
+      "HIV genomics",
+      "Viral integration sites",
+      "Single-cell multiomics",
+      "Spatial transcriptomics"
     ],
     "education": "Education",
     "connect": "Connect",
     "selected": "Selected research",
-    "research_title": "Research & software projects",
-    "research_intro": "Methods, pipelines, and software for working with complex data.",
+    "research_title": "Computational research projects",
+    "research_intro": "Sequencing analysis, statistical methods, and reproducible workflows for biomedical research.",
     "groups": [
       {
         "id": "research",
         "title": "Research & analytical tools",
         "intro": "Analysis workflows, sequence-processing tools, and statistical models."
-      },
-      {
-        "id": "software",
-        "title": "Software projects",
-        "intro": "Applications beyond the research pipeline."
       }
     ],
     "methods_label": "Computational approach",
@@ -134,39 +129,34 @@
     "view_cv": "查看简历",
     "all_projects": "全部项目 →",
     "full_cv": "完整简历 →",
-    "headline": "生物信息学分析师 · 科学计算",
+    "headline": "生物信息学分析师 · 协作型测序分析",
     "affiliation": "宾夕法尼亚大学 微生物学系 / 测序核心平台 · 费城",
-    "summary": "面向测序数据分析的数据流程、统计建模与软件开发。",
+    "summary": "为合作型研究提供生物信息学分析，聚焦 HIV、病毒整合位点、单细胞多组学与空间转录组。",
     "about": "关于我",
     "about_paragraphs": [
-      "我主要构建计算分析流程，将原始测序数据转化为结构清晰、可解释的结果。工作结合数据处理、统计分析和可视化，涵盖序列与条形码解析、样本信息整合、质量评估，以及可复现结果的生成。",
-      "目前在宾夕法尼亚大学，我使用 R、Python 和 Bash，在 Linux、Slurm 与 AWS 环境中开展单细胞与空间数据分析、序列比对、整合位点检测及转录组建模。此前的研究结合卷积神经网络和系统发育统计方法，分析哺乳动物调控序列。",
-      "我尤其关注研究中的软件工程问题：明确分析假设、检查边界情况，并让工具便于他人运行和理解。科研之外，我也开发桌面软件，包括电子书转换与投递应用。"
+      "我是一名生物信息学分析师，主要为不同实验室和合作团队的测序研究提供数据分析支持。我与研究人员协作，将生物学问题和实验设计转化为严谨的分析方案、可复现流程，以及便于解释和交流的结果。",
+      "目前在宾夕法尼亚大学，我的工作重点包括 HIV 研究、病毒整合位点分析及单细胞测序，其中涵盖多模态组学与空间转录组。我负责从原始测序数据出发，完成质量控制、比对或定量、数据整合、统计分析、可视化及面向合作者的结果汇报。",
+      "我的背景还包括计算生物学中的机器学习研究。在卡内基梅隆大学 Pfenning 实验室，我结合深度学习、比较基因组学和系统发育统计，利用调控序列模型研究哺乳动物性状的演化。"
     ],
     "experience": "工作与科研经历",
     "focus": "计算方向",
     "focus_tags": [
-      "分析流程开发",
-      "统计建模",
-      "序列算法",
-      "数据整合",
-      "科学软件"
+      "协作型测序分析",
+      "HIV 基因组学",
+      "病毒整合位点",
+      "单细胞多组学",
+      "空间转录组"
     ],
     "education": "教育背景",
     "connect": "联系方式",
     "selected": "精选研究项目",
-    "research_title": "研究与软件项目",
-    "research_intro": "围绕复杂数据的方法设计、分析流程和软件开发。",
+    "research_title": "计算研究项目",
+    "research_intro": "面向生物医学研究的测序分析、统计方法与可复现流程。",
     "groups": [
       {
         "id": "research",
         "title": "研究与分析工具",
         "intro": "数据分析流程、序列处理工具与统计模型。"
-      },
-      {
-        "id": "software",
-        "title": "软件项目",
-        "intro": "科研分析之外的应用开发。"
       }
     ],
     "methods_label": "计算方法",
