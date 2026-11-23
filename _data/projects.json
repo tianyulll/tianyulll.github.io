@@ -130,59 +130,5 @@
       "output": "交付基因级结果、通路汇总与可视化，并明确比较设计和统计假设。",
       "status": "研究分析"
     }
-  },
-  {
-    "slug": "barcode-extraction",
-    "art": "tracks",
-    "tags": [
-      "Python",
-      "edlib",
-      "FASTQ",
-      "Orientation handling"
-    ],
-    "group": "research",
-    "en": {
-      "title": "Sequencing barcode extraction",
-      "category": "Sequence processing",
-      "description": "Recovering normalized barcodes from reads with variable orientation and imperfect anchor matches.",
-      "body": "Develop primer- and adapter-anchored extraction scripts, including edit-distance alignment, configurable anchor-error tolerance, and forward, reverse-complement, and reverse-primer handling. Compare single-anchor and two-anchor strategies to make barcode boundaries explicit.",
-      "output": "Outputs include normalized barcode sequences and count tables. The work emphasizes orientation handling, boundary checks, and transparent read-selection rules.",
-      "status": "Tool development"
-    },
-    "zh": {
-      "title": "测序条形码提取",
-      "category": "序列处理",
-      "description": "从方向不一致、锚点匹配存在误差的读段中提取并统一条形码。",
-      "body": "开发以引物或接头为锚点的提取脚本，使用编辑距离比对、可配置的锚点容错，以及正向、反向互补和反向引物处理。比较单锚点与双锚点策略，明确条形码边界。",
-      "output": "输出统一方向的条形码和计数表，重点处理方向、边界检查与可追踪的序列筛选规则。",
-      "status": "工具开发"
-    }
-  },
-  {
-    "slug": "workflows",
-    "art": "tracks",
-    "tags": [
-      "Linux / Slurm",
-      "AWS",
-      "Git / Docker",
-      "R / Python / Bash"
-    ],
-    "group": "research",
-    "en": {
-      "title": "Reproducible analysis workflows",
-      "category": "Scientific infrastructure",
-      "description": "Making data processing repeatable across samples, projects, and computing environments.",
-      "body": "Deploy analyses on Linux, Slurm, and AWS, with Git, Docker, and automation scripts for batch processing and reproducibility. Organize preprocessing, analysis, visualization, and reporting into workflows that collaborators can inspect and rerun.",
-      "output": "Practical emphasis on consistent inputs, metadata, reusable scripts, and communication of analysis assumptions.",
-      "status": "Workflow engineering"
-    },
-    "zh": {
-      "title": "可复现分析流程",
-      "category": "科学计算基础设施",
-      "description": "支持跨样本、跨项目和跨计算环境的可重复数据处理。",
-      "body": "在 Linux、Slurm 与 AWS 环境中部署分析，结合 Git、Docker 和自动化脚本进行批量处理与复现。将预处理、分析、可视化和报告组织为便于合作者检查与重新运行的流程。",
-      "output": "注重输入与元数据的一致性、脚本复用，以及分析假设的清晰沟通。",
-      "status": "流程工程"
-    }
   }
 ]

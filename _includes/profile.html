@@ -2,7 +2,7 @@
 <div class="container profile-page">
 <section class="profile-header" aria-labelledby="profile-name">
   <div class="portrait-frame"><img class="portrait" src="{{ '/assets/tianyu-lu-clean.png' | relative_url }}" alt="{{ ui.name }}" width="176" height="176"><img class="profile-helix" src="{{ '/assets/profile-helix.svg' | relative_url }}" alt="" width="84" height="220"></div>
-  <div class="profile-intro"><h1 id="profile-name">{{ ui.name }}</h1><p class="headline">{{ ui.headline }}</p><p class="profile-affiliation">{{ ui.affiliation }}</p><p class="profile-summary">{{ ui.summary }}</p><div class="profile-actions"><a class="button" href="mailto:{{ site.email }}">{{ ui.contact }}</a><a class="button secondary" href="{{ ui.cv_url | relative_url }}">{{ ui.view_cv }}</a><a class="text-link" href="https://www.linkedin.com/in/tianyu-charlie-lu">LinkedIn ↗</a></div></div>
+  <div class="profile-intro"><h1 id="profile-name">{{ ui.name }}</h1><p class="headline">{{ ui.headline }}</p><p class="profile-affiliation">{{ ui.affiliation }}</p><p class="profile-summary">{{ ui.summary }}</p><div class="profile-actions"><a class="text-link" href="mailto:{{ site.email }}">{{ ui.email }} ↗</a><a class="text-link" href="https://github.com/tianyulll">GitHub ↗</a><a class="text-link" href="https://www.linkedin.com/in/tianyu-charlie-lu">LinkedIn ↗</a></div></div>
 </section>
 <div class="profile-columns"><div>
 <section class="profile-section" aria-labelledby="about-title"><h2 id="about-title">{{ ui.about }}</h2>{% for paragraph in ui.about_paragraphs %}<p>{{ paragraph | escape }}</p>{% endfor %}</section>
